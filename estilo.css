@@ -98,3 +98,16 @@ footer {
     background-color: #f430b3;
     margin-top: 20px;
   }
+  
+  @media (max-width: 768px) {
+    .galeria {
+      flex-direction: column;
+    }
+    .fotos {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .fotos img {
+      width: 150px;
+      height: 200px;
+    }
+  }
